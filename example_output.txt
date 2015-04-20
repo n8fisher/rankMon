@@ -1,0 +1,10 @@
+python ./extractItemPage.py  -q laundry%20detergent | python -m json.tool
+{
+    "date": "20/04/2015-12:02:42",
+    "query": "laundry%20detergent",
+    "results": [
+        "/ip/Purex-Mountain-Breeze-Dirt-Lift-Action-Liquid-Laundry-Detergent-300-fl-oz/26906120",
+        "/ip/Tide-Simply-Clean-Fresh-Refreshing-Breeze-Liquid-Laundry-Detergent-138-fl-oz/33963161",
+        "/ip/XTRA-Crystal-Clean-Liquid-Laundry-Detergent-175-fl-oz/26691195"
+    ]
+}
